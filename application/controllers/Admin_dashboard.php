@@ -13,6 +13,9 @@ class Admin_dashboard extends Base_Controller
 
 	public function index()
 	{
-		$this->load->view('admin/dashboard', $this->page_data);
+		$this->load->view('admin/header', $this->page_data);
+		$this->load->view('admin/dashboard');
+		$this->load->view('admin/footer');
 	}
+
 }
