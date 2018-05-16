@@ -8,6 +8,8 @@ class Base_Controller extends CI_Controller
 	{
 		parent::__construct();
 
+		$this->page_data = array();
+
 	}
 
 	public function hash($password)
