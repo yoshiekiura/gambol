@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase    /gambol/
+RewriteCond $1 !^(index\.php|images|files|css|js|fonts|robots\.txt)
+RewriteRule ^(.*)$ /gambol/index.php/$1 [L]
