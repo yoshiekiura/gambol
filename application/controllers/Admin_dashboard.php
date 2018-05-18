@@ -8,7 +8,7 @@ class Admin_dashboard extends Base_Controller
 	{
 		parent::__construct();
 
-		if (!$this->session->has_userdata("admin")) redirect("access/login", "refresh");
+		if (!$this->session->has_userdata("admin")) redirect("access/admin_login", "refresh");
 	}
 
 	public function index()

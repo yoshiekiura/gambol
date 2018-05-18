@@ -8,7 +8,11 @@ class Access_model extends CI_Model
 
         $this->db->select("*");
         $this->db->from($table);
-        $this->db->where("username = ", $username);
+        if($table == "admin"){
+            $this->db->where("username = ", $username);
+        } else if ($table == "user") {
+            $this->db->where("email = ", $username);
+        }
         $this->db->where("password = SHA2(CONCAT(salt,'" . $password . "'),512)");
         $this->db->where("deleted = 0");
 

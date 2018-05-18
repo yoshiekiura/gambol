@@ -9,7 +9,7 @@
 	<meta name="author" content="">
 	<link rel="icon" href="<?= base_url() ?>images/favicon.ico">
 
-	<title>Crypto Admin - Distribution Countdown</title>
+	<title>Gambol</title>
 
 	<!-- Bootstrap 4.0-->
 	<link rel="stylesheet" href="<?= base_url() ?>assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
@@ -27,6 +27,8 @@
 	<link rel="stylesheet" href="<?= base_url() ?>css/skins/_all-skins.css">
 
 	<link rel="stylesheet" href="<?= base_url() ?>css/skins/_all-skins.css">
+
+	<link rel="stylesheet" href="<?= base_url() ?>css/gambol.css">
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -292,27 +294,33 @@
 						</a>
 						<ul class="treeview-menu">
 							<li>
-								<a href="<?= base_url() ?>">Countdown</a>
+								<a href="<?= base_url() ?>ico/countdown">Countdown</a>
 							</li>
 							<li>
-								<a href="<?= base_url() ?>admin_ico/timeline">Roadmap/Timeline</a>
+								<a href="<?= base_url() ?>ico/buy_token">Buy Tokens</a>
 							</li>
 							<li>
-								<a href="<?= base_url() ?>admin_ico/progress">Progress Bar</a>
+								<a href="<?= base_url() ?>ico/transfer_token">Transfer Tokens</a>
 							</li>
 							<li>
-								<a href="<?= base_url() ?>admin_ico/details">Details</a>
+								<a href="<?= base_url() ?>ico/timeline">Roadmap/Timeline</a>
 							</li>
 							<li>
-								<a href="<?= base_url() ?>admin_ico/listing">ICO Listing</a>
+								<a href="<?= base_url() ?>ico/progress">Progress Bar</a>
 							</li>
 							<li>
-								<a href="<?= base_url() ?>admin_ico/listing_filter">ICO Listing - Filters</a>
+								<a href="<?= base_url() ?>ico/details">Details</a>
+							</li>
+							<li>
+								<a href="<?= base_url() ?>ico/listing">ICO Listing</a>
+							</li>
+							<li>
+								<a href="<?= base_url() ?>ico/listing_filter">ICO Listing - Filters</a>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="currency-ex/exchange.html">
+						<a href="#">
 							<i class="icon-refresh"></i>
 							<span>Currency Exchange</span>
 							<span class="pull-right-container">
