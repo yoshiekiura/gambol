@@ -70,9 +70,16 @@
 
 				<div class="navbar-custom-menu">
 					<ul class="nav navbar-nav">
-
-
-
+						<li style="padding-top: 1vw; padding-right: 1vw;">
+							<a href="#">
+								<span>0.00 BOL</span>
+							</a>
+						</li>
+						<li style="padding-top: 1vw; padding-right: 1vw;">
+							<a href="#">
+								<span>0.00 USD</span>
+							</a>
+						</li>
 						<!-- Messages -->
 						<li class="dropdown messages-menu">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -204,8 +211,9 @@
 									<img src="<?= base_url() ?>images/user5-128x128.jpg" class="float-left rounded-circle" alt="User Image">
 
 									<p>
-										Yew Yang
-										<small class="mb-5">yewyang@cysoft.co</small>
+										<small class="mb-5">
+											<?= $this->session->userdata("user")["email"]?>
+										</small>
 										<a href="#" class="btn btn-danger btn-sm btn-rounded">View Profile</a>
 									</p>
 								</li>
@@ -266,7 +274,9 @@
 						<img src="<?= base_url() ?>images/user2-160x160.jpg" class="rounded-circle" alt="User Image">
 					</div>
 					<div class="info">
-						<p>yewyang@cysoft.co</p>
+						<p>
+							<?= $this->session->userdata("user")["email"]?>
+						</p>
 						<a href="" class="link" data-toggle="tooltip" title="" data-original-title="Settings">
 							<i class="ion ion-gear-b"></i>
 						</a>

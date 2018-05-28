@@ -9,18 +9,18 @@
 	<title>Gambol</title>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+	<link rel="shortcut icon" href="<?=base_url()?>images/favicon.png" type="image/png">
 
 	<!--==== BASE CSS ====-->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet" type="text/css">
-	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="css/owl-carousel.css" rel="stylesheet" type="text/css">
-	<link href="css/meanmenu.css" rel="stylesheet" type="text/css">
+	<link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?=base_url()?>css/animate.css" rel="stylesheet" type="text/css">
+	<link href="<?=base_url()?>css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="<?=base_url()?>css/owl-carousel.css" rel="stylesheet" type="text/css">
+	<link href="<?=base_url()?>css/meanmenu.css" rel="stylesheet" type="text/css">
 
 	<!--==== CUSTOM CSS ====-->
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
+	<link href="<?=base_url()?>css/style.css" rel="stylesheet">
+	<link href="<?=base_url()?>css/responsive.css" rel="stylesheet">
 
 	<!--==== GOOGLE FONTS ====-->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
@@ -57,7 +57,8 @@
 			<div class="row">
 				<div class="col-md-2 header-logo">
 					<a href="<?= base_url() ?>">
-						GAM<span>BOL</span>
+						GAM
+						<span>BOL</span>
 					</a>
 				</div>
 				<!--col-md-2-->
@@ -238,13 +239,13 @@
 				</figure>
 				<!--======= End of Shattering Title ===========-->
 				<div class="col-md-12 col-lg-6 banner-text banner-dark-text wow fadeInUp" data-wow-delay="0.4s">
-					<h1>Buy And Sell Digital Currency</h1>
-					<p>Gambol works just like obtaining any other currency. You can buy and sell them, and that is the future.</p>
+					<h1>Decentralized Gaming</h1>
+					<p>Gambol is a decentralized gaming platform conntecting players all over the world.</p>
 					<a class="banner-btn banner-dark-btn" href="#services">Our Services</a>
 				</div>
 				<!--col-md-5-->
 				<div class="col-md-12 col-lg-6 banner-img wow fadeInUp" data-wow-delay="0.4s">
-					<img src="images/network.png" alt="header-img">
+					<div id="particles-js"></div>
 				</div>
 				<!--col-md-7-->
 			</div>
@@ -260,26 +261,25 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 about-heading about-dark-heading">
 					<h2>How It Works</h2>
-					<p>Nothing na nating alam lana nakukuha ang
-						<br> atensyon kng nagb abasa</p>
+					<p>Start Playing in 3 Steps</p>
 				</div>
 				<!--col-md-12-->
 				<div class="col-md-4 col-lg-4 about-text about-dark-text">
 					<h2>01</h2>
-					<h3>Download Wallet</h3>
-					<p>Amari na nating alam lana nakukuha ang atensyon kng nagba basa mairela</p>
+					<h3>Register</h3>
+					<p>Join the Gambol network of millions of users.</p>
 				</div>
 				<!--col-md-4-->
 				<div class="col-md-4 col-lg-4 about-text about-dark-text">
 					<h2>02</h2>
-					<h3>Add Gambol Wallet</h3>
-					<p>Amari na nating alam lana nakukuha ang atensyon kng nagba basa mairela</p>
+					<h3>Get Bol Token</h3>
+					<p>Get your Bol Tokens in our Pre-ICO program now.</p>
 				</div>
 				<!--col-md-4-->
 				<div class="col-md-4 col-lg-4 about-text about-dark-text">
 					<h2>03</h2>
-					<h3>Buy or Sell Coin</h3>
-					<p>Amari na nating alam lana nakukuha ang atensyon kng nagba basa mairela</p>
+					<h3>Play and Win</h3>
+					<p>Enjoy the game.</p>
 				</div>
 				<!--col-md-4-->
 			</div>
@@ -322,8 +322,8 @@
 			<div class="row">
 				<div class="col-md-12 col-lg-12 roadmap-heading">
 					<h2>Road Map</h2>
-					<p>Nothing na nating alam lana nakukuha ang
-						<br> atensyon kng nagb abasa</p>
+					<!-- <p>Nothing na nating alam lana nakukuha ang
+						<br> atensyon kng nagb abasa</p> -->
 				</div>
 				<!--col-md-12-->
 			</div>
@@ -426,32 +426,38 @@
 	<!--===== COUNTER SECTION =====-->
 	<section id="counter" class="counter-dark-section">
 		<div class="container">
-			<div class="counter-wrapper wow fadeIn" data-wow-delay="0.2s">
-				<div class="row">
-					<div class="col-md-3 col-lg-3 counter-items counter-dark-items">
-						<span class="counter">14</span>
-						<h3>Years of Experience</h3>
+			<?php
+			if(1 == 2){
+				?>
+				<div class="counter-wrapper wow fadeIn" data-wow-delay="0.2s">
+					<div class="row">
+						<div class="col-md-3 col-lg-3 counter-items counter-dark-items">
+							<span class="counter">14</span>
+							<h3>Years of Experience</h3>
+						</div>
+						<!--col-md-3-->
+						<div class="col-md-3 col-lg-3 counter-items">
+							<span class="counter">458</span>
+							<h3>Years on the market</h3>
+						</div>
+						<!--col-md-3-->
+						<div class="col-md-3 col-lg-3 counter-items">
+							<span class="counter">24000</span>
+							<h3>Gambol ATMs</h3>
+						</div>
+						<!--col-md-3-->
+						<div class="col-md-3 col-lg-3 counter-items">
+							<span class="counter">25</span>
+							<h3>Operators</h3>
+						</div>
+						<!--col-md-3-->
 					</div>
-					<!--col-md-3-->
-					<div class="col-md-3 col-lg-3 counter-items">
-						<span class="counter">458</span>
-						<h3>Years on the market</h3>
-					</div>
-					<!--col-md-3-->
-					<div class="col-md-3 col-lg-3 counter-items">
-						<span class="counter">24000</span>
-						<h3>Gambol ATMs</h3>
-					</div>
-					<!--col-md-3-->
-					<div class="col-md-3 col-lg-3 counter-items">
-						<span class="counter">25</span>
-						<h3>Operators</h3>
-					</div>
-					<!--col-md-3-->
+					<!--row-->
 				</div>
-				<!--row-->
-			</div>
-			<!--counter-wrapper-->
+				<!--counter-wrapper-->
+				<?php
+			}
+			?>
 		</div>
 		<!--container-->
 	</section>
@@ -463,8 +469,8 @@
 			<div class="row wow fadeIn" data-wow-delay="0.2s">
 				<div class="col-md-12 col-sm-12 currency-heading currency-dark-heading">
 					<h2>Currency Prices</h2>
-					<p>Nothing na nating alam lana nakukuha ang
-						<br> atensyon kng nagb abasa</p>
+					<!-- <p>Nothing na nating alam lana nakukuha ang
+						<br> atensyon kng nagb abasa</p> -->
 				</div>
 				<!--col-md-12-->
 				<div class="col-md-12 table-info table-dark-info">
@@ -563,8 +569,8 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 team-heading team-dark-heading">
 					<h2>Team Member</h2>
-					<p>Nothing na nating alam lana nakukuha ang
-						<br> atensyon kng nagb abasa</p>
+					<!-- <p>Nothing na nating alam lana nakukuha ang
+						<br> atensyon kng nagb abasa</p> -->
 				</div>
 				<!--col-md-12-->
 			</div>
@@ -662,8 +668,8 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 faq-heading faq-dark-heading">
 					<h2>Frequent questions</h2>
-					<p>Nothing na nating alam lana nakukuha ang
-						<br> atensyon kng nagb abasa</p>
+					<!-- <p>Nothing na nating alam lana nakukuha ang
+						<br> atensyon kng nagb abasa</p> -->
 				</div>
 				<!--col-md-12-->
 			</div>
@@ -799,8 +805,8 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 contact-heading contact-dark-heading">
 					<h2>Contact Me</h2>
-					<p>Nothing na nating alam lana nakukuha ang
-						<br> atensyon kng nagb abasa</p>
+					<!-- <p>Nothing na nating alam lana nakukuha ang
+						<br> atensyon kng nagb abasa</p> -->
 				</div>
 				<!--col-md-12-->
 			</div>
@@ -938,27 +944,30 @@
 	<!--============== END FOOTER SECTION ===============-->
 
 	<!--===== JAVASCRIPT FILES =====-->
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/tether.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl-carousel.js"></script>
-	<script src="js/jquery-validator.js"></script>
-	<script src="js/waypoints.min.js"></script>
-	<script src="js/jquery.counterup.min.js"></script>
-	<script src="js/jquery.meanmenu.js"></script>
-	<script src="js/active-scroll-nav.js"></script>
-	<script src="js/wow.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/partical_space.js"></script>
+	<script src="<?=base_url()?>js/jquery-2.1.4.min.js"></script>
+	<script src="<?=base_url()?>js/tether.min.js"></script>
+	<script src="<?=base_url()?>js/bootstrap.min.js"></script>
+	<script src="<?=base_url()?>js/owl-carousel.js"></script>
+	<script src="<?=base_url()?>js/jquery-validator.js"></script>
+	<script src="<?=base_url()?>js/waypoints.min.js"></script>
+	<script src="<?=base_url()?>js/jquery.counterup.min.js"></script>
+	<script src="<?=base_url()?>js/jquery.meanmenu.js"></script>
+	<script src="<?=base_url()?>js/active-scroll-nav.js"></script>
+	<script src="<?=base_url()?>js/wow.js"></script>
+	<script src="<?=base_url()?>js/main.js"></script>
+	<script src="<?=base_url()?>js/partical_space.js"></script>
+	<script src="<?=base_url()?>js/partical.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
-	<script src="js/shattering_text.js"></script>
+	<script src="<?=base_url()?>js/shattering_text.js"></script>
 	<script>
 		$(document).on('click', '#login-link', function (e) {
 
 			var content = '<form method="POST" action="<?= base_url() ?>main/login">';
 			content += '<i class="fa fa-user-circle full-modal-content-icon"></i>';
-			content +='<input type="email" class="form-control full-modal-input" name="email" required placeholder="Please enter your email">';
-			content += '<input type="password" class="form-control full-modal-input" name="password" required placeholder="Please enter your password">';
+			content +=
+				'<input type="email" class="form-control full-modal-input" name="email" required placeholder="Please enter your email">';
+			content +=
+				'<input type="password" class="form-control full-modal-input" name="password" required placeholder="Please enter your password">';
 			content += '<a id="register-link" class="full-modal-link">do not have an account?</a>';
 			content += '<input type="submit" value="login" class="btn btn-default full-modal-button">';
 			content += '</form>';
@@ -970,16 +979,154 @@
 
 			var content = '<form method="POST" action="<?= base_url() ?>main/register">';
 			content += '<i class="fa fa-user-circle full-modal-content-icon"></i>';
-			content += '<input type="email" class="form-control full-modal-input" name="email" required placeholder="Please enter your email">';
-			content += '<input type="password" class="form-control full-modal-input" name="password" required placeholder="Please enter your password">';
-			content += '<input type="password" class="form-control full-modal-input" name="password2" required placeholder="Please confirm your password">';
-			content += '<input type="text" class="form-control full-modal-input" name="referral_code" placeholder="Please enter a referral code if any">';
+			content +=
+				'<input type="email" class="form-control full-modal-input" name="email" required placeholder="Please enter your email">';
+			content +=
+				'<input type="password" class="form-control full-modal-input" name="password" required placeholder="Please enter your password">';
+			content +=
+				'<input type="password" class="form-control full-modal-input" name="password2" required placeholder="Please confirm your password">';
+			content +=
+				'<input type="text" class="form-control full-modal-input" name="referral_code" placeholder="Please enter a referral code if any">';
 			content += '<a id="login-link" class="full-modal-link">already have an account?</a>';
 			content += '<input type="submit" value="register" class="btn btn-default full-modal-button">';
 			content += '</form>';
 
 			$(".full-modal-content").html(content);
 		});
+
+		/* ---- particles.js config ---- */
+
+		particlesJS("particles-js", {
+			"particles": {
+				"number": {
+					"value": 380,
+					"density": {
+						"enable": true,
+						"value_area": 800
+					}
+				},
+				"color": {
+					"value": "#ffffff"
+				},
+				"shape": {
+					"type": "circle",
+					"stroke": {
+						"width": 0,
+						"color": "#ffffff"
+					},
+					"polygon": {
+						"nb_sides": 5
+					},
+					"image": {
+						"src": "img/github.svg",
+						"width": 100,
+						"height": 100
+					}
+				},
+				"opacity": {
+					"value": 0.5,
+					"random": false,
+					"anim": {
+						"enable": false,
+						"speed": 1,
+						"opacity_min": 0.1,
+						"sync": false
+					}
+				},
+				"size": {
+					"value": 3,
+					"random": true,
+					"anim": {
+						"enable": false,
+						"speed": 40,
+						"size_min": 0.1,
+						"sync": false
+					}
+				},
+				"line_linked": {
+					"enable": true,
+					"distance": 150,
+					"color": "#4286f4",
+					"opacity": 0.4,
+					"width": 1
+				},
+				"move": {
+					"enable": true,
+					"speed": 6,
+					"direction": "none",
+					"random": false,
+					"straight": false,
+					"out_mode": "out",
+					"bounce": false,
+					"attract": {
+						"enable": false,
+						"rotateX": 600,
+						"rotateY": 1200
+					}
+				}
+			},
+			"interactivity": {
+				"detect_on": "canvas",
+				"events": {
+					"onhover": {
+						"enable": true,
+						"mode": "grab"
+					},
+					"onclick": {
+						"enable": true,
+						"mode": "push"
+					},
+					"resize": true
+				},
+				"modes": {
+					"grab": {
+						"distance": 140,
+						"line_linked": {
+							"opacity": 1
+						}
+					},
+					"bubble": {
+						"distance": 400,
+						"size": 40,
+						"duration": 2,
+						"opacity": 8,
+						"speed": 3
+					},
+					"repulse": {
+						"distance": 200,
+						"duration": 0.4
+					},
+					"push": {
+						"particles_nb": 4
+					},
+					"remove": {
+						"particles_nb": 2
+					}
+				}
+			},
+			"retina_detect": true
+		});
+
+
+		/* ---- stats.js config ---- */
+
+		var count_particles, stats, update;
+		stats = new Stats;
+		stats.setMode(0);
+		stats.domElement.style.position = 'absolute';
+		stats.domElement.style.left = '0px';
+		stats.domElement.style.top = '0px';
+		document.body.appendChild(stats.domElement);
+		count_particles = document.querySelector('.js-count-particles');
+		update = function () {
+			stats.begin();
+			stats.end();
+			if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+				count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+			}
+			requestAnimationFrame(update);
+		};
+		requestAnimationFrame(update);
 
 	</script>
 </body>

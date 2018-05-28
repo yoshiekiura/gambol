@@ -39,7 +39,7 @@
 					<div>
 					</div>
 					<div class="text-right">
-						<a href="#" class="btn btn-warning">BUY TOKENS</a>
+						<a href="#" class="btn btn-warning" data-toggle="modal" data-target="#buy-modal">BUY TOKENS</a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +67,7 @@
 					<div>
 					</div>
 					<div class="text-right">
-						<a href="#" class="btn btn-warning">BUY TOKENS</a>
+						<a href="#" class="btn btn-warning" data-toggle="modal" data-target="#buy-modal">BUY TOKENS</a>
 					</div>
 				</div>
 			</div>
@@ -95,7 +95,7 @@
 					<div>
 					</div>
 					<div class="text-right">
-						<a href="#" class="btn btn-warning">BUY TOKENS</a>
+						<a href="#" class="btn btn-warning" data-toggle="modal" data-target="#buy-modal">BUY TOKENS</a>
 					</div>
 				</div>
 			</div>
@@ -103,3 +103,24 @@
 	</div>
 </section>
 <!-- /.content -->
+<!-- Modal -->
+<div id="buy-modal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Buy Token</h4>
+			</div>
+			<div class="modal-body">
+				<p>Please deposit into this address</p>
+				<input "text" disabled class="form-control" placeholder="address">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default pull-right" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>

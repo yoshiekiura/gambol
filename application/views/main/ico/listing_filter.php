@@ -136,15 +136,15 @@
 							<div class="media align-items-center p-0">
 								<div class="text-center">
 									<a href="#">
-										<img src="<?= base_url() ?>images/sample_coin.svg" class="coin-image">
+										<!-- <img src="<?= base_url() ?>images/sample_coin.svg" class="coin-image"> -->
 									</a>
 								</div>
 								<div>
 									<h4 class="no-margin text-bold">
-										Boldcoin
+										Bolcoin
 									</h4>
 									<span>
-										BDC
+										BOL
 									</span>
 								</div>
 							</div>

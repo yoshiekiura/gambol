@@ -37,9 +37,61 @@
 						more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
 					<div class="row">
-						<div class="col-12 col-lg-6">
+						<!-- <div class="col-12 col-lg-6">
 							<div class="video">
 								<embed class="w-p100 b-0 h-500" allowfullscreen src="https://www.youtube.com/embed/9xwazD5SyVg">
+							</div>
+						</div> -->
+						<div class="col-12 col-lg-3">
+							<div class="box text-center bg-info bg-deathstar-white">
+								<div class="box-body">
+									<h2 class="mt-20">Token Sale ends in</h2>
+									<h4 class="text-bold">12 DAYS</h4>
+									<h2 class="text-bold text-yellow mt-20">$4.200.000</h2>
+									<h4 class="text-bold">of</h4>
+									<h4 class="text-bold mb-40">$12.000.000</h4>
+									<a href="#" class="btn btn-warning btn-lg mb-20">WEBSITE</a>
+									<br>
+									<a href="#" class="btn btn-outline-warning btn-lg mb-30">WHITEPAPER</a>
+									<div class="mt-10 mb-15">
+										<button class="btn btn-social-icon btn-circle btn-facebook">
+											<i class="fa fa-facebook"></i>
+										</button>
+										<button class="btn btn-social-icon btn-circle btn-twitter">
+											<i class="fa fa-twitter"></i>
+										</button>
+										<button class="btn btn-social-icon btn-circle btn-linkedin">
+											<i class="fa fa-linkedin"></i>
+										</button>
+										<button class="btn btn-social-icon btn-circle btn-vimeo">
+											<i class="fa fa-vimeo"></i>
+										</button>
+										<button class="btn btn-social-icon btn-circle btn-instagram">
+											<i class="fa fa-instagram"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-3">
+							<div class="box text-center box-inverse box-success bg-banknote-white">
+								<div class="box-header with-border">
+									<h2 class="box-title">Market Price</h2>
+								</div>
+								<div class="box-body">
+									<div class="div-market-price">
+										<h1 class="mb-40">$1,231.91
+											<small>USD</small>
+										</h1>
+										<h1 class="mb-30">$0,231.22
+											<small>EUR</small>
+										</h1>
+										<h1 class="mb-50">$1,245.61
+											<small>GBR</small>
+										</h1>
+										<h3 class="text-white p-10">Average USD/EUR/GBR market price across major bitcoin exchanges.</h3>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="col-12 col-lg-3">
