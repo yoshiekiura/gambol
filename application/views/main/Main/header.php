@@ -66,11 +66,11 @@
 					<div class="main-menu-area">
 						<nav class="header-nav">
 							<ul id="navigation">
-								<li class="active">
+								<li>
 									<a href="<?= base_url() ?>">Home</a>
 								</li>
 								<li>
-									<a href="#about">About</a>
+									<a href="<?= base_url() ?>main/about">About</a>
 								</li>
 								<li>
 									<a href="#token">Product</a>

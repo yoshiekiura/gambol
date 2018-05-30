@@ -164,7 +164,7 @@
 						<li>Technology Overview</li>
 						<li>Marketing Strategy</li>
 					</ul>
-					<a class="about-btn about-dark-btn" href="<?= base_url() ?>/main/about">Click Here</a>
+					<a class="about-btn about-dark-btn" href="<?= base_url() ?>main/about">Click Here</a>
 				</div>
 				<!--col-md-4-->
 			</div>
