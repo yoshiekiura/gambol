@@ -17,22 +17,16 @@
 				</div>
 				<!--col-md-4-->
 				<div class="col-md-3 footer-nav">
-					<h5>Quick Links</h5>
+					<h5>Games</h5>
 					<ul>
 						<li>
-							<a href="#">How it Works</a>
+							<a href="#">GAMBOL Blackjack 21</a>
 						</li>
 						<li>
-							<a href="#">Guarantee</a>
+							<a href="#">GAMBOL Baccarat</a>
 						</li>
 						<li>
-							<a href="#">Security</a>
-						</li>
-						<li>
-							<a href="#">Exchange</a>
-						</li>
-						<li>
-							<a href="#">Pricing</a>
+							<a href="#">GAMBOL Poker</a>
 						</li>
 					</ul>
 				</div>
