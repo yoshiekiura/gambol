@@ -76,16 +76,13 @@
 									<a href="<?= base_url() ?>main/product">Product</a>
 								</li>
 								<li>
-									<a href="#roadmap">Games</a>
+									<a href="<?= base_url()?>main/ranking">Ranking</a>
 								</li>
 								<li>
-									<a href="#team">Ranking</a>
+									<a href="<?= base_url()?>main/future">Future</a>
 								</li>
 								<li>
-									<a href="#blog">Future</a>
-								</li>
-								<li>
-									<a href="#contact">Token</a>
+									<a href="<?= base_url()?>main/token">Token</a>
 								</li>
 								<li>
 									<a href="<?= base_url()?>main/road_map">Road Map</a>
