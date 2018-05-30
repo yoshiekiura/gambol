@@ -885,22 +885,16 @@
 				</div>
 				<!--col-md-3-->
 				<div class="col-md-3 footer-nav">
-					<h5>About Us</h5>
+					<h5>About</h5>
 					<ul>
 						<li>
-							<a href="#">Services</a>
+							<a href="#">Market Overview</a>
 						</li>
 						<li>
-							<a href="#">Blog</a>
+							<a href="#">Technology Overview</a>
 						</li>
 						<li>
-							<a href="#">Security</a>
-						</li>
-						<li>
-							<a href="#">Report Bug</a>
-						</li>
-						<li>
-							<a href="#">Secret</a>
+							<a href="#">Marketing Strategy</a>
 						</li>
 					</ul>
 				</div>
