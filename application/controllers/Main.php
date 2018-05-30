@@ -112,6 +112,13 @@ class Main extends Base_Controller
         }
     }
 
+    function about()
+    {
+        $this->load->view("main/Main/header");
+        $this->load->view("main/Main/about");
+        $this->load->view("main/Main/footer");
+    }
+
 }
 
 ?>

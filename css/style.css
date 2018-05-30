@@ -1973,7 +1973,8 @@ svg>* {
 .about-section3,
 .counter-dark-section,
 .team-dark-section,
-.footer-dark-section {
+.footer-dark-section,
+.star-section {
 	background: url(../images/star_background.jpg) center;
 }
 
@@ -2117,4 +2118,17 @@ svg>* {
 	background-color: #fbae1d;
     color: black;
     border-color: black;
+}
+
+.color-dark-section {
+	background: #10122d;
+    padding-top: 100px;
+	padding-bottom: 100px;
+	color: #fff;
+}
+
+.star-section {
+	color: #fff;
+	height: 100%;
+	padding-top: 100px;
 }

@@ -41,13 +41,13 @@
 					<h5>About</h5>
 					<ul>
 						<li>
-							<a href="#">Market Overview</a>
+							<a href="<?= base_url() ?>/main/about#market_overview">Market Overview</a>
 						</li>
 						<li>
-							<a href="#">Technology Overview</a>
+							<a href="<?= base_url() ?>/main/about#technology_overview">Technology Overview</a>
 						</li>
 						<li>
-							<a href="#">Marketing Strategy</a>
+							<a href="<?= base_url() ?>/main/about#marketing_strategy">Marketing Strategy</a>
 						</li>
 					</ul>
 				</div>
