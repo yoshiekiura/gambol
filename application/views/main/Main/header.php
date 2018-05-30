@@ -76,7 +76,7 @@
 									<a href="#token">Product</a>
 								</li>
 								<li>
-									<a href="#team">Ranking</a>
+									<a href="<?= base_url()?>main/ranking">Ranking</a>
 								</li>
 								<li>
 									<a href="<?= base_url()?>main/future">Future</a>

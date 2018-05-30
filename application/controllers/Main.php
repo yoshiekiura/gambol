@@ -40,6 +40,13 @@ class Main extends Base_Controller
         $this->load->view("main/Main/footer");
     }
 
+    function ranking()
+    {
+        $this->load->view("main/Main/header");
+        $this->load->view("main/Main/ranking");
+        $this->load->view("main/Main/footer");
+    }
+
     function register()
     {
         if ($_POST) {
