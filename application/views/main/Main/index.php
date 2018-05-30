@@ -161,7 +161,7 @@
 						For more details about GAMBOL's:</p>
 					<ul>
 						<li>Market Overview</li>
-						<li>Strategy Overview</li>
+						<li>Technology Overview</li>
 						<li>Marketing Strategy</li>
 					</ul>
 					<a class="about-btn about-dark-btn" href="#services">Click Here</a>
