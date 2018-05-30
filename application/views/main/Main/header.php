@@ -73,7 +73,7 @@
 									<a href="<?= base_url() ?>main/about">About</a>
 								</li>
 								<li>
-									<a href="#token">Product</a>
+									<a href="<?= base_url() ?>main/product">Product</a>
 								</li>
 								<li>
 									<a href="#roadmap">Games</a>
