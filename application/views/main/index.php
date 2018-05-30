@@ -73,19 +73,22 @@
 									<a href="#about">About</a>
 								</li>
 								<li>
-									<a href="#token">Token Sale</a>
+									<a href="#token">Product</a>
 								</li>
 								<li>
-									<a href="#roadmap">Roadmap</a>
+									<a href="#roadmap">Games</a>
 								</li>
 								<li>
-									<a href="#team">Team</a>
+									<a href="#team">Ranking</a>
 								</li>
 								<li>
-									<a href="#blog">Blog</a>
+									<a href="#blog">Future</a>
 								</li>
 								<li>
-									<a href="#contact">Contact</a>
+									<a href="#contact">Token</a>
+								</li>
+								<li>
+									<a href="#contact">Roadmap</a>
 								</li>
 								<li>
 									<a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
