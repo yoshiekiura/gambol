@@ -19,6 +19,13 @@ class Main extends Base_Controller
         $this->load->view("main/Main/footer");
     }
 
+    function road_map()
+    {
+        $this->load->view("main/Main/header");
+        $this->load->view("main/Main/road_map");
+        $this->load->view("main/Main/footer");
+    }
+
     function register()
     {
         if ($_POST) {

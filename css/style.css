@@ -871,15 +871,16 @@ a:focus {
 
 .roadmap-icon {
 	background: #fff none repeat scroll 0 0;
-	color: #000;
-	border-radius: 50%;
-	height: 18px;
-	width: 18px;
-	font-size: 10px;
-	text-align: center;
-	z-index: 9999;
-	position: relative;
-	margin-top: -6px;
+    color: #000;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    font-size: 10px;
+    text-align: center;
+    z-index: 1049;
+    position: absolute;
+    right: -11.5px;
+    top: 40%;
 }
 
 .roadmap-content {
@@ -953,9 +954,10 @@ a:focus {
 	width: 18px;
 	font-size: 10px;
 	text-align: center;
-	z-index: 9999;
-	position: relative;
-	margin-top: -6px;
+    z-index: 1049;
+    position: absolute;
+    right: -11.5px;
+    top: 40%;
 }
 
 .roadmap-content-white h5 {
@@ -968,7 +970,7 @@ a:focus {
 
 .roadmap-animation {
 	animation: 3s linear 0s normal none infinite running animate;
-	z-index: 9999;
+	z-index: 1049;
 }
 
 @keyframes animate {

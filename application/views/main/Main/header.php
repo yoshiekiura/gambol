@@ -20,6 +20,7 @@
 
 	<!--==== CUSTOM CSS ====-->
 	<link href="<?=base_url()?>css/style.css" rel="stylesheet">
+	<link href="<?=base_url()?>css/custom.css" rel="stylesheet">
 	<link href="<?=base_url()?>css/responsive.css" rel="stylesheet">
 
 	<!--==== GOOGLE FONTS ====-->
@@ -57,8 +58,7 @@
 			<div class="row">
 				<div class="col-md-2 header-logo">
 					<a href="<?= base_url() ?>">
-						GAM
-						<span>BOL</span>
+						GAM<span>BOL</span>
 					</a>
 				</div>
 				<!--col-md-2-->
@@ -88,7 +88,7 @@
 									<a href="#contact">Token</a>
 								</li>
 								<li>
-									<a href="#contact">Roadmap</a>
+									<a href="<?= base_url()?>main/road_map">Road Map</a>
 								</li>
 								<li>
 									<a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
@@ -112,22 +112,25 @@
 									<a href="#about">About</a>
 								</li>
 								<li>
-									<a href="#token">Token Sale</a>
+									<a href="#token">Product</a>
 								</li>
 								<li>
-									<a href="#roadmap">Roadmap</a>
+									<a href="#roadmap">Games</a>
 								</li>
 								<li>
-									<a href="#team">Team</a>
+									<a href="#team">Ranking</a>
 								</li>
 								<li>
-									<a href="#blog">Blog</a>
+									<a href="#blog">Future</a>
 								</li>
 								<li>
-									<a href="#contact">Contact</a>
+									<a href="#contact">Token</a>
 								</li>
 								<li>
-									<a href="#">Login</a>
+									<a href="<?= base_url()?>main/road_map">Road Map</a>
+								</li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
 								</li>
 							</ul>
 						</nav>
