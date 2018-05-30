@@ -100,9 +100,9 @@
 				</figure>
 				<!--======= End of Shattering Title ===========-->
 				<div class="col-md-12 col-lg-6 banner-text banner-dark-text wow fadeInUp" data-wow-delay="0.4s">
-					<h1>Decentralized Gaming</h1>
+					<h1>Decentralized Game of Skill Platform</h1>
 					<p>Gambol is a decentralized gaming platform conntecting players all over the world.</p>
-					<a class="banner-btn banner-dark-btn" href="#services">Our Services</a>
+					<!-- <a class="banner-btn banner-dark-btn" href="#services">Our Services</a> -->
 				</div>
 				<!--col-md-5-->
 				<div class="col-md-12 col-lg-6 banner-img wow fadeInUp" data-wow-delay="0.4s">
@@ -155,15 +155,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-lg-5 about-text2 about-dark-text2">
-					<h3>About Gambol & Secure</h3>
-					<p>Now includes an advanced layer of Ransomware Protection pasLorem ipsum dolor sit amet, consectetur adipisicing elit.Matagal
-						na nating alam lana nakukuha.</p>
+					<h3>About Gambol</h3>
+					<p>GAMBOL is a decentralised platform on top of Ethereum—the second largest public blockchain. 
+						It leverages on blockchain applications such as smart contracts and blockchain’s offer of shared truth to give the online gaming community fairness, transparency and capacity for even more fun.
+						For more details about GAMBOL's:</p>
 					<ul>
-						<li>Cold Hard (Digital) Cash</li>
-						<li>Big Spender</li>
-						<li>Nail the Basics</li>
+						<li>Market Overview</li>
+						<li>Strategy Overview</li>
+						<li>Marketing Strategy</li>
 					</ul>
-					<a class="about-btn about-dark-btn" href="#services">Read More</a>
+					<a class="about-btn about-dark-btn" href="#services">Click Here</a>
 				</div>
 				<!--col-md-4-->
 			</div>
