@@ -14,7 +14,9 @@ class Main extends Base_Controller
 
     function index()
     {
-        $this->load->view("main/index");
+        $this->load->view("main/Main/header");
+        $this->load->view("main/Main/index");
+        $this->load->view("main/Main/footer");
     }
 
     function register()
