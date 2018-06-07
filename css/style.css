@@ -1254,7 +1254,7 @@ tr.light td {
 	background: #3873ff;
 	height: 100%;
 	left: 0;
-	top: 70%;
+	top: 74%;
 	width: 100%;
 	padding-top: 25px;
 	text-align: center;
@@ -1917,13 +1917,14 @@ tr.light td {
 
 figure.shattering_title {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	left: 0;
-	top: 0;
-	width: 100%;
-	z-index: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 70%;
+    z-index: 1;
+    margin-left: 15%;
 }
 
 svg>* {
@@ -2133,4 +2134,9 @@ svg>* {
 	color: #fff;
 	height: 100%;
 	padding-top: 100px;
+}
+
+#site-header {
+	padding-left: 15px;
+	padding-right: 15px;
 }

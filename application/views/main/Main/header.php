@@ -54,7 +54,7 @@
 	<!--back-to-top-->
 	<div id="home"></div>
 	<header id="site-header" class="home-header">
-		<div class="container">
+		<div class="container-fluid" >
 			<div class="row">
 				<div class="col-md-2 header-logo">
 					<a href="<?= base_url() ?>">

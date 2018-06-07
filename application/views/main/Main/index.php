@@ -174,157 +174,6 @@
 	</section>
 	<!--============== END ABOUT SECTION ===============-->
 
-
-
-
-
-	<!--===== ROAD MAP SECTION =====-->
-	<section id="roadmap" class="roadmap-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-12 roadmap-heading">
-					<h2>Road Map</h2>
-					<!-- <p>Nothing na nating alam lana nakukuha ang
-						<br> atensyon kng nagb abasa</p> -->
-				</div>
-				<!--col-md-12-->
-			</div>
-			<!--row-->
-		</div>
-		<!--container-->
-		<div class="container roadmap-wrapper">
-			<div class="row">
-				<div class="col-md-2 col-lg-2 roadmap-text">
-					<div class="roadmap-icon">
-						<i class="fa fa-check"></i>
-					</div>
-				</div>
-				<!--col-md-2-->
-				<div class="col-md-2 col-lg-2 roadmap-text">
-					<div class="roadmap-icon">
-						<i class="fa fa-check"></i>
-					</div>
-				</div>
-				<!--col-md-2-->
-				<div class="col-md-2 col-lg-2 roadmap-text">
-					<div class="roadmap-icon2 roadmap-animation">
-					</div>
-				</div>
-				<!--col-md-2-->
-				<div class="col-md-2 col-lg-2 roadmap-text">
-					<div class="roadmap-icon2">
-					</div>
-				</div>
-				<!--col-md-2-->
-				<div class="col-md-2 col-lg-2 roadmap-text">
-					<div class="roadmap-icon2">
-					</div>
-				</div>
-				<!--col-md-2-->
-				<div class="col-md-2 col-lg-2 roadmap-text">
-					<div class="roadmap-icon2">
-					</div>
-				</div>
-				<!--col-md-2-->
-			</div>
-			<!--row-->
-		</div>
-		<!--container-->
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2">
-					<div class="roadmap-content">
-						<h5>September 2017</h5>
-						<p>Siant Platform idea</p>
-					</div>
-				</div>
-				<!--col-lg-2-->
-				<div class="col-lg-2">
-					<div class="roadmap-content">
-						<h5>November 2017</h5>
-						<p>Technical and Strategy Development
-						</p>
-					</div>
-				</div>
-				<!--col-lg-2-->
-				<div class="col-lg-2">
-					<div class="roadmap-content2">
-						<div class="arrow-up"></div>
-						<h5>February 2018</h5>
-						<p>ICO Realease</p>
-						<span>Now</span>
-					</div>
-				</div>
-				<!--col-lg-2-->
-				<div class="col-lg-2">
-					<div class="roadmap-content roadmap-content-white">
-						<h5>March 2018</h5>
-						<p>Listing on Main Exchange
-						</p>
-					</div>
-				</div>
-				<!--col-lg-2-->
-				<div class="col-lg-2">
-					<div class="roadmap-content roadmap-content-white">
-						<h5>June 2018</h5>
-						<p>Beta version of Sint Platform</p>
-					</div>
-				</div>
-				<!--col-lg-2-->
-				<div class="col-lg-2">
-					<div class="roadmap-content roadmap-content-white">
-						<h5>July 2018</h5>
-						<p>Mobile Apps for iOS and Android</p>
-					</div>
-				</div>
-				<!--col-lg-2-->
-			</div>
-			<!--row-->
-		</div>
-		<!--container-->
-	</section>
-	<!--============== END ROAD MAP SECTION ===============-->
-
-	<!--===== COUNTER SECTION =====-->
-	<section id="counter" class="counter-dark-section">
-		<div class="container">
-			<?php
-			if(1 == 2){
-				?>
-				<div class="counter-wrapper wow fadeIn" data-wow-delay="0.2s">
-					<div class="row">
-						<div class="col-md-3 col-lg-3 counter-items counter-dark-items">
-							<span class="counter">14</span>
-							<h3>Years of Experience</h3>
-						</div>
-						<!--col-md-3-->
-						<div class="col-md-3 col-lg-3 counter-items">
-							<span class="counter">458</span>
-							<h3>Years on the market</h3>
-						</div>
-						<!--col-md-3-->
-						<div class="col-md-3 col-lg-3 counter-items">
-							<span class="counter">24000</span>
-							<h3>Gambol ATMs</h3>
-						</div>
-						<!--col-md-3-->
-						<div class="col-md-3 col-lg-3 counter-items">
-							<span class="counter">25</span>
-							<h3>Operators</h3>
-						</div>
-						<!--col-md-3-->
-					</div>
-					<!--row-->
-				</div>
-				<!--counter-wrapper-->
-				<?php
-			}
-			?>
-		</div>
-		<!--container-->
-	</section>
-	<!--============== END COUNTER SECTION ===============-->
-
 	<!--===== CURRENCY SECTION =====-->
 	<section id="currency" class="currency-dark-section">
 		<div class="container">
@@ -343,9 +192,7 @@
 									<th scope="col">Name</th>
 									<th scope="col">Market Cap</th>
 									<th scope="col">Price</th>
-									<th scope="col">Circulating Supply</th>
-									<th scope="col">Volume (24h)</th>
-									<th scope="col">24h% Change</th>
+									<th scope="col">Price to Bol</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -354,64 +201,48 @@
 									<td>$34,733,645</td>
 									<td>$2432.63</td>
 									<td>121,232,232 BTC</td>
-									<td>$1,324,321,000</td>
-									<td>5.64%</td>
 								</tr>
 								<tr class="green2">
 									<th scope="row">Ethereum</th>
 									<td>$78,330,456,320</td>
 									<td>$803.54</td>
 									<td>97,481,471 ETH </td>
-									<td>$4,183,530,000 </td>
-									<td>-7.46% </td>
 								</tr>
 								<tr class="green dark-green">
 									<th scope="row">Ripple</th>
 									<td>$29,242,478,469</td>
 									<td>$0.749630 </td>
 									<td>16,955,625 BCH </td>
-									<td>$1,127,170,000 </td>
-									<td>4.64% </td>
 								</tr>
 								<tr class="green">
 									<th scope="row">Qtum</th>
 									<td>$1,713,926,922</td>
 									<td>$23.20</td>
 									<td>16,811,424 BTG</td>
-									<td>$90,063,400</td>
-									<td>2.64% </td>
 								</tr>
 								<tr class="green">
 									<th scope="row">Cardano</th>
 									<td>$8,998,534,299</td>
 									<td>$0.347071</td>
 									<td>55,120,883 LTC</td>
-									<td>$926,505,000</td>
-									<td>1.64% </td>
 								</tr>
 								<tr class="light">
 									<th scope="row">Litecoin</th>
 									<td>$7,863,600,312</td>
 									<td>$144.66</td>
 									<td>65,000,000 NEO</td>
-									<td>$926,505,000</td>
-									<td>-2.66% </td>
 								</tr>
 								<tr class="green">
 									<th scope="row">EOS</th>
 									<td>$334,346,645</td>
 									<td>$653.63</td>
 									<td>431,232,232 BTC</td>
-									<td>$6,324,321,000</td>
-									<td>2.54%</td>
 								</tr>
 								<tr class="light">
 									<th scope="row">Bitcoin</th>
 									<td>$96,733,645</td>
 									<td>$342.63</td>
 									<td>641,232,232 BTC</td>
-									<td>$5,324,321,000</td>
-									<td>-3.64%</td>
 								</tr>
 							</tbody>
 						</table>
@@ -441,7 +272,7 @@
 				<div class="row">
 					<div class="item col-lg-3 col-md-6">
 						<div class="team-items">
-							<img src="images/empty-profile.jpg" alt="team-1">
+							<img src="images/jason1.jpg" alt="team-1">
 							<div class="overlay">
 								<h3>Jason Liew</h3>
 								<p>CEO Marketing</p>
@@ -460,7 +291,7 @@
 					<!--col-md-4-->
 					<div class="item col-lg-3 col-md-6">
 						<div class="team-items">
-							<img src="images/empty-profile.jpg" alt="team-2">
+							<img src="images/jason1.jpg" alt="team-2">
 							<div class="overlay">
 								<h3>Jason Liew</h3>
 								<p>Project Manager</p>
@@ -479,7 +310,7 @@
 					<!--col-md-4-->
 					<div class="item col-lg-3 col-md-6">
 						<div class="team-items">
-							<img src="images/empty-profile.jpg" alt="team-3">
+							<img src="images/jason1.jpg" alt="team-3">
 							<div class="overlay">
 								<h3>Jason Liew</h3>
 								<p>Web Designer</p>
@@ -498,7 +329,7 @@
 					<!--col-md-4-->
 					<div class="item col-lg-3 col-md-6">
 						<div class="team-items">
-							<img src="images/empty-profile.jpg" alt="team-4">
+							<img src="images/jason1.jpg" alt="team-4">
 							<div class="overlay">
 								<h3>Jason Liew</h3>
 								<p>CEO Marketing</p>
@@ -535,17 +366,6 @@
 				</div>
 				<!--col-md-12-->
 			</div>
-			<!--row-->
-			<div class="row">
-				<div class="col-md-12 col-sm-12 faq-subscribe">
-					<form class="form-inline" action="#" method="post">
-						<input type="text" placeholder="Need Fast Help? Try Asking your Question Here." name="subscribe_text" id="text">
-						<input type="submit" value="Get Answers" id="button">
-					</form>
-				</div>
-				<!--col-md-12-->
-			</div>
-			<!--row-->
 			<div class="row">
 				<div class="col-md-12 panel-group-heading">
 					<h3>More information, please choose below:</h3>
@@ -666,7 +486,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 contact-heading contact-dark-heading">
-					<h2>Contact Me</h2>
+					<h2>Contact Us</h2>
 					<!-- <p>Nothing na nating alam lana nakukuha ang
 						<br> atensyon kng nagb abasa</p> -->
 				</div>
